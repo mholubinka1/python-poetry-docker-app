@@ -18,6 +18,10 @@ config = {
         },
     },
     "loggers": {
-        APP_LOGGER_NAME: {"handlers": ["console"], "level": LOG_LEVEL, "propagate": False}
-    }
+        APP_LOGGER_NAME: {
+            "handlers": ["console"],
+            "level": LOG_LEVEL,
+            "propagate": False,
+        }
+    },
 }
