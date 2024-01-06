@@ -26,7 +26,7 @@ This template has a suite of tools to enforce good practice with regards to typi
 
 These tools are all run automatically on each commit. In order to run them otherwise:
 
-1. isort - `isort . --profile black`
-2. black - `black .`
-3. mypy - `mypy .`
-4. ruff - `ruff check . --fix`
+1. isort - `poetry run isort . --profile black`
+2. black - `poetry run black .`
+3. mypy - `poetry run mypy .`
+4. ruff - `poetry run ruff check . --fix`
