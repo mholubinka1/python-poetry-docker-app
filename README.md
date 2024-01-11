@@ -10,7 +10,7 @@
 
 ### pre-commit setup
 
-There are pre-commit configurations (found in `.pre-commit-config.yaml` which will execute code checking and linting tools automatically on every commit.
+There are pre-commit configurations (found in `.pre-commit-config.yaml`) which will execute code checking and linting tools automatically on every commit.
 
 - Install [pre-commit](https://github.com/pre-commit/pre-commit): `pip install pre-commit`
 - Install the pre-commit hooks from the configuration file: `pre-commit install`
